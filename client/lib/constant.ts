@@ -1,6 +1,7 @@
 import { gql } from '@apollo/client';
 
-export const uri = 'http://localhost:4000/graphql';
+// export const uri = 'http://localhost:4000/graphql';
+export const uri = 'https://mb-apollo-server.herokuapp.com/graphql';
 export const batchCount = 20;
 export const errMsg = 'Looks like something went amiss, please try again';
 export const QUERY = gql`
