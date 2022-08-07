@@ -1,8 +1,8 @@
-import Contacts from '../../components/contacts';
+// import Contacts from '../components/contacts/Contacts';
 
 describe('<Contacts>', () => {
-
   it('mounts', () => {
-    cy.mount(Contacts)
+  //  cy.mount(<Contacts />)
+  cy.fixture('contacts').as('contactsjson')
   })
 })

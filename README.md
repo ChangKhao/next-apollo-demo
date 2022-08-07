@@ -23,11 +23,12 @@
 - Tested in sandbox
 
 ### Hosting and Repo
-- Added Docker
+- Added Docker but untested
+- Issues with Docker on Mac w/M1 chip
 - Created a Heroku account
 - Added Heroku GIT to App
 - deployed client and server on Heroku
 - https://mb-apollo-server.herokuapp.com/graphql
-- https://mb-apollo-client.herokuapp.com/contact-list
+- https://mb-apollo-client.herokuapp.com
 - Committed to GitHub
 - https://github.com/ChangKhao/next-apollo-demo
