@@ -9,7 +9,7 @@ const server = new ApolloServer({
     cache: 'bounded'
 });
 
-server.listen().then(({ url }) => {
+server.listen(process.env.PORT).then(({ url }) => {
     // tslint:disable-next-line:no-console
     console.log(`Server is ready to go @ ${url}`);
 });

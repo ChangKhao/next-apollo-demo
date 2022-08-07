@@ -10,8 +10,9 @@
   "main": "dist/server.js",
   "scripts": {
     "tsfix": "tslint -c tslint.json -p tsconfig.json --fix",
-    "build": "tsc",
     "dist": "npm run build",
+    "build": "tsc",
+    "heroku-postbuild": "tsc",
     "start": "node ."
   },
   "dependencies": {
