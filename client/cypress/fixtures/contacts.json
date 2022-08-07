@@ -1,0 +1,17 @@
+{
+    "data": {
+        "ContactsList": {
+            "Contacts": [
+                {
+                    "company": "Publicis Sapient",
+                    "name": "Mark Berrecloth",
+                    "address": "Working from home",
+                    "email": "mark.berrecloth@publicissapient.com",
+                    "phoneNumber": "01234 567890",
+                    "__typename": "Contact"
+                }
+            ],
+            "next": false
+        }
+    }
+}

@@ -26,3 +26,8 @@
 - Added Docker
 - Created a Heroku account
 - Added Heroku GIT to App
+- deployed client and server on Heroku
+- https://mb-apollo-server.herokuapp.com/graphql
+- https://mb-apollo-client.herokuapp.com/contact-list
+- Committed to GitHub
+- https://github.com/ChangKhao/next-apollo-demo
