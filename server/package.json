@@ -2,15 +2,28 @@
   "name": "faker-graphql",
   "version": "1.0.0",
   "license": "MIT",
+  "description": "Faker requirement",
+  "repository": {
+    "type": "N/A",
+    "url": "N/A"
+  },
+  "main": "dist/server.js",
   "scripts": {
-    "start": "node server"
+    "tsfix": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "dist": "npm run build",
+    "start": "node ."
   },
   "dependencies": {
-    "apollo-server-express": "^1.2.0",
+    "apollo-server": "^3.10.0",
+    "apollo-server-express": "^3.10.0",
     "body-parser": "^1.18.2",
+    "casual": "^1.6.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
-    "faker": "^4.1.0",
-    "graphql": "^0.11.7"
+    "faker": "^5.5.3",
+    "graphql": "^16.5.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.4"
   }
 }
